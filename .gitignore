@@ -1,0 +1,23 @@
+# Root env (contains API keys from other projects)
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Flow / Swarm
+.claude-flow/
+.swarm/
+planning-with-files-master/
+
+# Node
+node_modules/
+
+# Logs
+*.log

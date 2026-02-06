@@ -1,0 +1,35 @@
+{
+  "name": "lys-atelier-backend",
+  "version": "1.0.0",
+  "description": "Lys Atelier e-commerce backend powered by Medusa v2",
+  "license": "MIT",
+  "scripts": {
+    "build": "medusa build",
+    "dev": "medusa develop",
+    "start": "medusa start",
+    "test": "medusa test",
+    "db:generate": "medusa db:generate",
+    "db:migrate": "medusa db:migrate",
+    "db:rollback": "medusa db:rollback",
+    "db:seed": "medusa exec ./src/scripts/seed.ts",
+    "medusa": "medusa"
+  },
+  "dependencies": {
+    "@medusajs/admin-sdk": "^2.13.1",
+    "@medusajs/cli": "^2.13.1",
+    "@medusajs/framework": "^2.13.1",
+    "@medusajs/medusa": "^2.13.1",
+    "motion": "^12.33.0",
+    "resend": "^6.9.1"
+  },
+  "devDependencies": {
+    "@medusajs/test-utils": "^2.13.1",
+    "@swc/core": "^1.10.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

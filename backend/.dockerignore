@@ -1,0 +1,16 @@
+node_modules
+.medusa
+.env
+.env.*
+.git
+.gitignore
+.DS_Store
+coverage
+*.log
+.vscode
+.idea
+uploads
+.cache
+Dockerfile
+.dockerignore
+src/__tests__
