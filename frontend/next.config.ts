@@ -19,6 +19,10 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
+        hostname: '*.khard.app',
+      },
+      {
+        protocol: 'https',
         hostname: 'images.unsplash.com',
       },
       {
